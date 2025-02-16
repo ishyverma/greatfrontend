@@ -10,10 +10,10 @@ const Resources = () => {
   return (  
     <div className="my-40 flex items-center justify-center">
       <div className="w-[90vw]">
-        <div className="sm:text-5xl text-3xl text-[#F4F4F4] lg:w-[900px] w-[90vw] font-medium">
+        <div className="sm:text-5xl text-3xl dark:text-[#F4F4F4] text-[#52525B] lg:w-[900px] w-[90vw] font-medium">
           Let big tech senior/staff engineers write your prep resources
         </div>
-        <div className="sm:text-lg text-base mt-6 text-[#A1A1AA] lg:w-[55%] w-[90vw]">
+        <div className="sm:text-lg text-base mt-6 dark:text-[#A1A1AA] text-[#52525B] lg:w-[55%] w-[90vw]">
           Having interviewed hundreds of candidates, we know what to look out for. Learn best practices and techniques gleaned from years of experience.
         </div>
         <div className="grid sm:grid-cols-3 grid-cols-1 my-10 gap-5">

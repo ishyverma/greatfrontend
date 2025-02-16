@@ -6,16 +6,16 @@ const Interview = () => {
   return (
     <div className="flex justify-center items-center my-40">
       <div className="w-[90vw]">
-        <h1 className="lg:text-5xl text-3xl text-[#F4F4F4] font-medium">
+        <h1 className="lg:text-5xl text-3xl dark:text-[#F4F4F4] text-[#52525B] font-medium">
           A simple yet comprehensive plan to follow
         </h1>
-        <p className="text-[#A1A1AA] text-lg lg:w-[60%] w-[90vw] mt-6">
+        <p className="dark:text-[#A1A1AA] text-[#52525B] text-lg lg:w-[60%] w-[90vw] mt-6">
           Front end interviews are even broader in scope than traditional
           software engineering interviews. On top of the wide range of front end
           topics that could be asked, some companies still include standard DSA
           questions for front end roles.
         </p>
-        <p className="text-lg text-[#D6D6D7] lg:w-[60%] w-[90vw] mt-8">
+        <p className="text-lg dark:text-[#D6D6D7] text-[#52525B] lg:w-[60%] w-[90vw] mt-8">
           We've condensed everything into a simple strategy you can use to
           conquer essential interview patterns.
         </p>
@@ -44,7 +44,7 @@ const Interview = () => {
                   className="flex hover:border hover:border-[#EAFD7B] text-base w-full pl-2 justify-start items-center"
                   variant="secondary"
                 >
-                  <span className="w-7 flex justify-center items-center rounded-full border border-[#2D2D30] h-7 bg-[#1E1E21] text-[#71717A]">
+                  <span className="w-7 flex justify-center items-center rounded-full border border-[#2D2D30] h-7 bg-[#1E1E21] dark:text-[#71717A] text-[#52525B]">
                     1
                   </span>{" "}
                   GFE 75
@@ -53,7 +53,7 @@ const Interview = () => {
                   className="flex hover:border hover:border-[#EAFD7B] text-base w-full pl-2 justify-start items-center"
                   variant="secondary"
                 >
-                  <span className="w-7 flex justify-center items-center rounded-full border border-[#2D2D30] h-7 bg-[#1E1E21] text-[#71717A]">
+                  <span className="w-7 flex justify-center items-center rounded-full border border-[#2D2D30] h-7 bg-[#1E1E21] dark:text-[#71717A] text-[#52525B]">
                     2
                   </span>{" "}
                   Blind 75
@@ -62,7 +62,7 @@ const Interview = () => {
                   className="flex hover:border hover:border-[#EAFD7B] text-base w-full pl-2 justify-start items-center"
                   variant="secondary"
                 >
-                  <span className="w-7 flex justify-center items-center rounded-full border border-[#2D2D30] h-7 bg-[#1E1E21] text-[#71717A]">
+                  <span className="w-7 flex justify-center items-center rounded-full border border-[#2D2D30] h-7 bg-[#1E1E21] dark:text-[#71717A] text-[#52525B]">
                     3
                   </span>{" "}
                   Front end system design

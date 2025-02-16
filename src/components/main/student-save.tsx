@@ -15,10 +15,10 @@ const studentVariants = cva(
   {
   variants: {
     variant: {
-      "Seasonal": "bg-[#0D3310] text-[#239F33] border border-[#39EA49]",
-      "Social": "bg-[#3E260F] text-[#F7963C] border border-[#FEBF84]",
-      "Student": "bg-[#27272A] text-white",
-      "Submit Review": "bg-[#0F303B] text-[#46C4EE] border border-[#46C4EE]"
+      "Seasonal": "dark:bg-[#0D3310] bg-[#EBFEEC] text-[#239F33] border border-[#39EA49]",
+      "Social": "dark:bg-[#3E260F] text-[#F7963C] bg-[#FFF9F3] border border-[#FEBF84]",
+      "Student": "dark:bg-[#27272A] bg-[#FAFAFA] dark:text-white text-black",
+      "Submit Review": "dark:bg-[#0F303B] bg-[#F1FCFF] text-[#46C4EE] border border-[#46C4EE]"
     }
   }
 })

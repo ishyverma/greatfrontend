@@ -18,7 +18,7 @@ const Save = () => {
             <ArrowRight className="w-4" />
           </p>
         </div>
-        <div className="sm:text-5xl text-3xl text-[#F4F4F4] lg:w-[900px] w-[90vw] font-medium mt-8">
+        <div className="sm:text-5xl text-3xl dark:text-[#F4F4F4] text-[#52525B] lg:w-[900px] w-[90vw] font-medium mt-8">
           Save time, ace interviews, and secure high-paying roles
         </div>
         <div className="relative flex p-6 gap-10 isolate mt-10 overflow-hidden rounded-xl mx-auto w-full max-w-lg md:max-w-none bg-white dark:bg-neutral-900 border border-neutral-300 dark:border-neutral-700 before:absolute before:-z-[1] before:h-[130px] before:w-[210px] before:rounded-full before:bg-[radial-gradient(32.11%_32.11%_at_50%_50%,_#FFFFFF_0%,_#D8D8E1_100%)] before:opacity-10 before:blur- [42.0942px] before:-top-[150px] before:left-1/2 before:-translate-x-1/2">
@@ -27,15 +27,15 @@ const Save = () => {
               <div>
                 Lifetime plan
               </div>
-              <div className="rounded-xl bg-[#27272A] text-xs">
+              <div className="rounded-xl dark:bg-[#27272A] bg-[#F4F4F5] text-xs">
                 While offer lasts
               </div>
             </div>
-            <div className="text-[#A1A1AA] mt-7">
+            <div className="dark:text-[#A1A1AA] text-[#52525B] mt-7">
               <span className="line-through">$360 paid once</span> (50% off)
             </div>
             <div className="text-6xl font-medium mt-3">
-              $180 <span className="text-[#A1A1AA] text-sm -ml-3">paid once</span>
+              $180 <span className="dark:text-[#A1A1AA] text-[#52525B] text-sm -ml-3">paid once</span>
             </div>
             <div className="mt-3">
               <Button variant='primary' className="rounded-3xl w-full">
@@ -50,21 +50,21 @@ const Save = () => {
             <div className="font-medium">
               Pay once, get full access to the interviews platform forever
             </div>
-            <div className="flex lg:items-center items-start text-[#A1A1AA] mt-4 gap-1">
+            <div className="flex lg:items-center items-start dark:text-[#A1A1AA] text-[#52525B] mt-4 gap-1">
               <Check className="text-green-700 w-5" /> Unlock all premium interviews content
             </div>
-            <div className="flex lg:items-center items-start text-[#A1A1AA] mt-4 gap-1">
+            <div className="flex lg:items-center items-start dark:text-[#A1A1AA] text-[#52525B] mt-4 gap-1">
               <Check className="text-green-700 w-5" /> Exclusive private Discord channel with real-time support from the team
             </div>
             <div className="w-full h-[1px] bg-[#A1A1AA]/20 mt-6 lg:block hidden" />
-            <div className="text-[#A1A1AA] text-xs mt-5 hidden lg:flex">
+            <div className="dark:text-[#A1A1AA] text-[#52525B] text-xs mt-5 hidden lg:flex">
               Included for free
             </div>
             <div className="lg:flex hidden mt-3 items-center gap-2 group cursor-pointer">
-              <div className="bg-rose-500 font-semibold p-1 rounded-sm">
+              <div className="bg-rose-500 dark:text-black text-white font-semibold p-1 rounded-sm">
                 FTL
               </div>
-              <div className="text-[#A1A1AA] group-hover:underline">FAANG Tech Leads Software Engineer Resume References and Handbook</div>
+              <div className="dark:text-[#A1A1AA] text-[#52525B] group-hover:underline">FAANG Tech Leads Software Engineer Resume References and Handbook</div>
               <div className="text-2xl font-semibold">28 USD</div>
             </div>
           </div>
@@ -94,7 +94,7 @@ const Save = () => {
             third="Exclusive private Discord channel with real-time support from the team"
           />
         </div>
-        <div className="mt-10 text-xs text-[#A1A1AA]">
+        <div className="mt-10 text-xs dark:text-[#A1A1AA] text-[#52525B]">
           <div>
             * Tip: Many users have reimbursed GreatFrontEnd Interviews Premium as part of their company's flexible benefits or learning and training budget.
           </div>

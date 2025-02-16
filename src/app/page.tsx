@@ -21,7 +21,6 @@ export default function Home() {
       <CraftingGFE />
       <Offers />
       <Resources />
-      <Interview />
       <Environment />
       <InterviewQuestions />
       <Automatic />

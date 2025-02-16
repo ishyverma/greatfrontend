@@ -22,10 +22,10 @@ const Offers = () => {
   return (
     <div className="flex items-center justify-center my-14">
       <div className="sm:w-[80vw]">
-        <div className="sm:text-5xl text-4xl text-[#F4F4F4] font-medium">
+        <div className="sm:text-5xl text-4xl dark:text-[#F4F4F4] text-[#52525B] font-medium">
           The offers don't lie
         </div>
-        <div className="sm:text-lg text-base mt-6 text-[#A1A1AA] lg:w-[55%] w-[88vw]">
+        <div className="sm:text-lg text-base mt-6 dark:text-[#A1A1AA] text-[#52525B] lg:w-[55%] w-[88vw]">
           Scores of our users have landed multiple offers at the world's top
           companies with substantial TC gains. Be the next.
         </div>
@@ -63,7 +63,7 @@ const Offers = () => {
                 />
                 <div className="ml-2 text-sm">
                   <span className="font-medium">Yugant Joshi</span>{" "}
-                  <span className="text-xs text-[#A1A1AA] font-medium">
+                  <span className="text-xs dark:text-[#A1A1AA] text-[#52525B] font-medium">
                     Frontend Software Engineer, San Jose, US
                   </span>
                 </div>
@@ -250,7 +250,7 @@ const Offers = () => {
                     />
                   </div>
                 </div>
-                <div className="text-white/90 font-medium text-sm mt-3">
+                <div className="dark:text-white/90 text-[#52525B] font-medium text-sm mt-3">
                   Received after using GreatFrontEnd
                 </div>
                 <div></div>
@@ -261,7 +261,7 @@ const Offers = () => {
               <div className="h-7 w-[3px] bg-[#3F3F45] rounded-t-sm rounded-b-sm" />
               <div>
                 <div className="text-xl font-medium fomt-bold">2x</div>
-                <div className="text-white/90 font-medium text-sm mt-3">
+                <div className="dark:text-white/90 text-[#52525B] font-medium text-sm mt-3">
                   Increase in total compensation
                 </div>
               </div>

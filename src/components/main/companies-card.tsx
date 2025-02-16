@@ -14,7 +14,7 @@ const CompaniesCard = ({
   name
 }: CompaniesCardProps) => {
   return (  
-    <div className="bg-[#1E1E21] rounded-lg border border-[#35353A] p-4 flex justify-between items-center group cursor-pointer">
+    <div className="dark:bg-[#1E1E21] bg-[#FAFAFA] rounded-lg border dark:border-[#35353A] border-[#D4D4D8] p-4 flex justify-between items-center group cursor-pointer">
       <div>
         <div className="flex gap-4 items-center justify-center">
           <Image 

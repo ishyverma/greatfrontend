@@ -7,7 +7,7 @@ const Environment = () => {
   return (  
     <div className="flex my-40 items-center justify-center">
       <div className="w-[90vw]">
-        <h1 className="sm:text-5xl text-3xl text-[#F4F4F4] font-medium sm:w-[900px] w-[90vw]">
+        <h1 className="sm:text-5xl text-3xl dark:text-[#F4F4F4] text-[#52525B] font-medium sm:w-[900px] w-[90vw]">
           Practice in an environment that simulates real interviews
         </h1>
         <p className="text-[#A1A1AA] text-lg sm:w-[60%] w-[90vw] mt-6">

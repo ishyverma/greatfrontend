@@ -25,41 +25,41 @@ const Footer = () => {
           </div>
         </div>
         {/* Second */}
-        <div className="space-y-4 text-sm text-[#A1A1AA]">
-          <div className="font-semibold text-white">Practice</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Get started</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">JavaScript functions</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">User interface coding</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">System design</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Quiz</div>
+        <div className="space-y-4 text-sm dark:text-[#A1A1AA] text-[#52525B]">
+          <div className="font-semibold dark:text-white text-black">Practice</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Get started</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">JavaScript functions</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">User interface coding</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">System design</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Quiz</div>
         </div>
         {/* Third */}
-        <div className="space-y-4 text-sm text-[#A1A1AA]">
-          <div className="font-semibold text-white">Guides</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Front End Interview Playbook</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Front End System Design Playbook</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Behavioral Interview Playbook</div>
+        <div className="space-y-4 text-sm dark:text-[#A1A1AA] text-[#52525B]">
+          <div className="font-semibold dark:text-white text-black">Guides</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Front End Interview Playbook</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Front End System Design Playbook</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Behavioral Interview Playbook</div>
         </div>
         {/* Forth */}
-        <div className="space-y-4 text-sm text-[#A1A1AA]">
-          <div className="font-semibold text-white">Study Plans</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">1 Week Plan</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">1 Month Plan</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">3 Months Plan</div>
+        <div className="space-y-4 text-sm dark:text-[#A1A1AA] text-[#52525B]">
+          <div className="font-semibold dark:text-white text-black">Study Plans</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">1 Week Plan</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">1 Month Plan</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">3 Months Plan</div>
         </div>
         {/* Fifth */}
-        <div className="space-y-4 text-sm text-[#A1A1AA]">
-          <div className="font-semibold text-white">Company</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Pricing</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Roadmap</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">About</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Team</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Contact us</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Become an affiliate</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Careers</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Blog</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">Medium</div>
-          <div className="cursor-pointer hover:text-[#EFFE94] font-medium">DEV community</div>
+        <div className="space-y-4 text-sm dark:text-[#A1A1AA] text-[#52525B]">
+          <div className="font-semibold dark:text-white text-black">Company</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Pricing</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Roadmap</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">About</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Team</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Contact us</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Become an affiliate</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Careers</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Blog</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">Medium</div>
+          <div className="cursor-pointer dark:hover:text-[#EFFE94] hover:underline font-medium">DEV community</div>
         </div>
       </div>
       <div className="w-[80vw] mt-10">
@@ -78,15 +78,15 @@ const Footer = () => {
               <XFooter />
             </Link>
           </div>
-          <div className="text-[#A1A1AA]">
+          <div className="dark:text-[#A1A1AA] text-[#52525B]">
             © 2025 Codeney Pte Ltd. All rights reserved.
           </div>
           <div className="h-1 w-1 shrink-0 rounded-full bg-neutral-400 dark:bg-neutral-600" />
-          <div className="text-[#A1A1AA]">
+          <div className="dark:text-[#A1A1AA] text-[#52525B]">
             Privacy Policy
           </div>
           <div className="h-1 w-1 shrink-0 rounded-full bg-neutral-400 dark:bg-neutral-600" />
-          <div className="text-[#A1A1AA]">
+          <div className="dark:text-[#A1A1AA] text-[#52525B]">
             Terms of Service
           </div>
         </div>

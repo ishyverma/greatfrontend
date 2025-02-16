@@ -39,14 +39,14 @@ const Hero = () => {
               words="Navigate front end interviews with ease"
             />
           </div>
-          <div className="text-[#A1A1AA] text-xl mt-8 font-medium delay-150 transition-all">
+          <div className="dark:text-[#A1A1AA] text-[#52525B] text-xl mt-8 font-medium delay-150 transition-all">
             <div
               className={`transition-opacity duration-1000 ease-in-out ${
                 isVisible ? "opacity-100" : "opacity-0"
               } w-[90vw] sm:w-[70vw] lg:w-[600px]`}
             >
               Meet the{" "}
-              <span className="text-white">
+              <span className="dark:text-white text-black">
                 front end interview prep platform
               </span>{" "}
               built to make your interviews much easier. By Big Tech
@@ -91,10 +91,10 @@ const Hero = () => {
                   <TooltipProvider>
                     <Tooltip>
                       <TooltipTrigger>
-                        <div className="text-[#D1D1D5] text-sm font-semibold">
+                        <div className="dark:text-[#D1D1D5] text-[#52525B] text-sm font-semibold">
                           500k+ engineers already on board
                         </div>
-                        <div className="flex gap-2 text-[#A1A1AA] text-xs mt-1">
+                        <div className="flex gap-2 dark:text-[#A1A1AA] text-[#52525B] text-xs mt-1">
                           <Graph />
                           Verifiable by Google Analytics
                         </div>

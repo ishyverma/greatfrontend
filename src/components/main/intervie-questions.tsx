@@ -27,11 +27,11 @@ const InterviewQuestions = () => {
   return (  
     <div className="my-40 flex items-center justify-center">
         <div className="w-[90vw]">
-          <div className="lg:text-5xl text-3xl text-[#F4F4F4] lg:w-[900px] w-[90vw] font-medium">
+          <div className="lg:text-5xl text-3xl dark:text-[#F4F4F4] text-[#52525B] lg:w-[900px] w-[90vw] font-medium">
             Every question answered by ex-interviewers
           </div>
           <div className="flex flex-col lg:flex-row justify-between mt-10">
-            <div className="text-lg text-[#A1A1AA] lg:w-[45%] w-[90vw]">
+            <div className="text-lg dark:text-[#A1A1AA] text-[#52525B] lg:w-[45%] w-[90vw]">
               Having interviewed hundreds of candidates, we know what to look out for. Learn best practices and techniques gleaned from years of experience.
             </div>
             <div className="mt-4 lg:mt-0">
